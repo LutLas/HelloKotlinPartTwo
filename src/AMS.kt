@@ -101,7 +101,7 @@ fun whatShouldIDoToday(
     }
 }*/
 
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     //println(whatShouldIDoToday("happy", "sunny"))
     //println(whatShouldIDoToday("sad"))
     //print("How do you feel?")
@@ -109,6 +109,9 @@ fun main(args: Array<String>) {
 
     val random1 = random()
     val random2 = {random()}
+
+    println(random1)
+    println(random2)
 
 }
 
@@ -123,7 +126,7 @@ fun whatShouldIDoToday(mood: String, weather: String = "sunny", temperature: Int
         isHappySunny(mood, weather) -> "go for a walk"
         else -> "Stay home and read."
     }
-}
+}*/
 /*
 fun main(args: Array<String>) {
     var fortune: String = ""
@@ -133,3 +136,7 @@ fun main(args: Array<String>) {
         if (fortune.contains("Take it easy")) break;
     }
 }*/
+
+fun main(){
+
+}
